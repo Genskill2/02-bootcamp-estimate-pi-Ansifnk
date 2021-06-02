@@ -42,6 +42,7 @@ if __name__ == "__main__":
 def wallis(n):
     j = 1
     n = int(n)
+    pi = 1
 
     for i in range(n):
         pi = pi*((4*(j*j))/(4*(j*j)-1))
