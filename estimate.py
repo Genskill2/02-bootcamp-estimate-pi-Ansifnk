@@ -40,11 +40,12 @@ if __name__ == "__main__":
 
 
 def wallis(n):
-    pi = 1
+    j = 1
     n = int(n)
 
-    for i in range(1, n):
-        pi = pi*((4*(n**2))/(4*(n**2)-1))
+    for i in range(n):
+        pi = pi*((4*(j**2))/(4*(j**2)-1))
+        j += 1
     print(pi)
     return 2*pi
 
