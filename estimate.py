@@ -44,7 +44,7 @@ def wallis(n):
     n = int(n)
 
     for i in range(n):
-        pi = pi*((4*(j**2))/(4*(j**2)-1))
+        pi = pi*((4*(j*j))/(4*(j*j)-1))
         j += 1
     print(pi)
     return 2*pi
